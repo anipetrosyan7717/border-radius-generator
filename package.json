@@ -1,0 +1,29 @@
+{
+  "name": "scss_project",
+  "version": "1.0.0",
+  "description": "Portfolio for scss",
+  "main": "index.js",
+  "scripts": {
+    "start": "start src/index.html && npm run css:watch",
+    "css:watch": "node-sass src -o src && node-sass src -wo src",
+    "build:sass": "node-sass -r --output-style compressed src -o src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anipetrosyan7717/scss_portfolio.git"
+  },
+  "keywords": [
+    "scss",
+    "portfolio",
+    "scss"
+  ],
+  "author": "Ani Petrosyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anipetrosyan7717/scss_portfolio/issues"
+  },
+  "homepage": "https://github.com/anipetrosyan7717/scss_portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}

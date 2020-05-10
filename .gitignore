@@ -1,0 +1,8 @@
+# redactor
+.idea
+
+# node-modules
+node_modules
+
+# sass files
+./src/main.scss
